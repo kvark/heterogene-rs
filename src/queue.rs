@@ -1,7 +1,9 @@
 /*!
-    Heterogeneous Queue
+
+Heterogeneous Queue
 
 # Example
+
 ```rust
     use heterogene::queue::{Q0,Q1,Q2,Q3};
     let q = ();

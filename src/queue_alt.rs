@@ -1,10 +1,12 @@
 /*!
-    Heterogeneous Queue (alternative)
+
+Heterogeneous Queue (alternative)
     
-    This version is hand-written (no macros) but has a simpler architecture
-    that allows implicit consumption by deconstruction on assignment.
+This version is hand-written (no macros) but has a simpler architecture
+that allows implicit consumption by deconstruction on assignment.
 
 # Example
+
 ```rust
     use heterogene::queue_alt::{Q0,Q1,Q2};
     let q = ();
