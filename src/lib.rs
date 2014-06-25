@@ -2,6 +2,7 @@
 #![crate_type = "rlib"]
 #![comment = "Heterogeneous containers for Rust"]
 #![feature(macro_rules)]
-#![allow(uppercase_variables)]
 
 pub mod queue;
+pub mod queue_alt;
+pub mod stack;
