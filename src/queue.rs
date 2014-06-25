@@ -13,6 +13,9 @@
 ```
 */
 
+#![allow(uppercase_variables)]
+
+
 pub trait Q0 {
     fn append<T1>(self, t: T1) -> (T1,);
 }
